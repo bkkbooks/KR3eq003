@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR3eq003/v1
+canonical_location: https://kanripo.org/bkk/KR3eq003/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 柳洲醫話
+  identifiers:
+    krp: KR3eq003
+  tags:
+    kr-categories: KR3eq
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eq003.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eq003_000.yaml, hash: 'sha256:e6ef88229e9cbbb0f4ea2baa7ad5378a30d9901143841af027c4cd65b691ffaa'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eq003_000.markers.yaml, hash: 'sha256:eda6ff6025617497d4ce3cd0b036c7eaaec87aa5e39fbe5b8ec5a505f6a526d5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eq003_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 102
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eq003_jc_000-d3.h1s1
+    span:
+    - body
+    - 0
+    - 5585
+  label: 按語八十五條
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eq003_jc_000-d4.h1s1
+    span:
+    - body
+    - 5585
+    - 8229
+  label: 附方
+  type: section
+  level: 1
+hash: sha256:50951ea30d8bfb57eee10668b7d0d117f7c40124679bb6c90df6c642b1676fa6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
